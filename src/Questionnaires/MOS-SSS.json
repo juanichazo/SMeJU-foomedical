@@ -1,0 +1,232 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "mos-social-support",
+  "url": "http://tu-org.com/fhir/Questionnaire/mos-social-support",
+  "version": "1.0.0",
+  "name": "MOSSocialSupportSurvey",
+  "title": "MOS Social Support Survey",
+  "status": "active",
+  "date": "2026-04-20",
+  "publisher": "RAND",
+  "description": "Medical Outcomes Study Social Support Survey (MOS-SSS)",
+  "subjectType": ["Patient"],
+  "item": [
+    {
+      "linkId": "mos_10",
+      "text": "Someone you can count on to listen to you when you need to talk",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_01",
+      "text": "Someone to give you information to give you information to help you understand a situation",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_02",
+      "text": "Someone to give you good advice about a crisis",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_03",
+      "text": "Someone to confide in or talk to about yourself or your problems",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },{
+      "linkId": "mos_04",
+      "text": "Someone whose advise you really want",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_05",
+      "text": "Someone to share your most private worries and fears with",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_06",
+      "text": "Someone to turn to for suggestions about how to deal with a personal problem",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_07",
+      "text": "Someone who understands your problems",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_08",
+      "text": "Someone to help you if you were confined to bed",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_09",
+      "text": "Someone to take you to the doctor if you needed it",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_10",
+      "text": "Someone to prepare your meals if you were unable to do it yourself",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_11",
+      "text": "Someone to help with daily chores if you were sick",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+
+    {
+      "linkId": "mos_12",
+      "text": "Someone who shows you love and affection",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_13",
+      "text": "Someone to love and make you feel wanted",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_14",
+      "text": "Someone who hugs you",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+
+    {
+      "linkId": "mos_15",
+      "text": "Someone to have a good time with",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_16",
+      "text": "Someone to get together with for relaxation",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    },
+    {
+      "linkId": "mos_17",
+      "text": "Someone to do something enjoyable with",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "1", "display": "None of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "2", "display": "A little of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "3", "display": "Some of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "4", "display": "Most of the time" }},
+        { "valueCoding": { "system": "http://tu-org.com/mos", "code": "5", "display": "All of the time" }}
+      ]
+    }
+  ]
+}

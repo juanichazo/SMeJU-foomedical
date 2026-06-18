@@ -1,0 +1,131 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "c65a84be-c226-41ba-8377-36d52f193b72",
+  "url": "http://tu-org.com/fhir/Questionnaire/audit",
+  "version": "1.0.0",
+  "name": "AUDITAlcoholUse",
+  "title": "Alcohol Use Disorders Identification Test (AUDIT)",
+  "status": "active",
+  "date": "2026-04-20",
+  "publisher": "World Health Organization (WHO)",
+  "description": "AUDIT is a 10-item screening tool to assess alcohol consumption, drinking behaviors, and alcohol-related problems.",
+  "subjectType": ["Patient"],
+  "item": [
+    {
+      "linkId": "audit_01",
+      "text": "How often do you have a drink containing alcohol?",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Monthly or less" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "2 to 4 times a month" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "2 to 3 times a week" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "4 or more times a week" }}
+      ]
+    },
+    {
+      "linkId": "audit_02",
+      "text": "How many drinks containing alcohol do you have on a typical day when you are drinking?",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "1 or 2" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "3 or 4" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "5 or 6" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "7 to 9" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "10 or more" }}
+      ]
+    },
+    {
+      "linkId": "audit_03",
+      "text": "How often do you have six or more drinks on one occasion?",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+      ]
+    },
+    {
+      "linkId": "audit_04",
+      "text": "How often during the last year have you found that you were not able to stop drinking once you had started?",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+      ]
+    },
+    {
+      "linkId": "audit_05",
+      "text": "How often during the last year have you failed to do what was normally expected from you because of drinking?",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+      ]
+    },
+    {
+      "linkId": "audit_06",
+      "text": "How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+      ]
+    },
+    {
+      "linkId": "audit_07",
+      "text": "How often during the last year have you had a feeling of guilt or remorse after drinking?",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+      ]
+    },
+    {
+      "linkId": "audit_08",
+      "text": "How often during the last year have you been unable to remember what happened the night before because you had been drinking?",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+      ]
+    },
+    {
+      "linkId": "audit_09",
+      "text": "Have you or someone else been injured as a result of your drinking?",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "No" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Yes, but not in the last year" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Yes, during the last year" }}
+      ]
+    },
+    {
+      "linkId": "audit_10",
+      "text": "Has a relative, friend, doctor or other health worker been concerned about your drinking or suggested you cut down?",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "No" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Yes, but not in the last year" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Yes, during the last year" }}
+      ]
+    }
+  ]
+}

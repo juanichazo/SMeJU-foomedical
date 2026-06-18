@@ -1,0 +1,306 @@
+{
+  "resourceType": "Questionnaire",
+  "id" : "6ad23455-4dea-45cf-b50d-f8909ce4d2e1",
+  "url": "https://example.org/fhir/Questionnaire/ctq-sf",
+  "name": "CTQSF",
+  "title": "Childhood Trauma Questionnaire - Short Form (CTQ-SF)",
+  "status": "active",
+  "subjectType": [
+    "Patient"
+  ],
+  "item": [
+    {
+      "id": "ctq-group",
+      "linkId": "ctq-group",
+      "text": "Cuando era pequeño y/o adolescente:",
+      "type": "group",
+      "item": [
+        {
+          "id": "q1",
+          "linkId": "q1",
+          "text": "No tenía suficiente para comer",
+          "type": "choice",
+          "required": true,
+          "answerOption": [
+            { "valueCoding": { "code": "1", "display": "Nunca" } },
+            { "valueCoding": { "code": "2", "display": "Raramente" } },
+            { "valueCoding": { "code": "3", "display": "A veces" } },
+            { "valueCoding": { "code": "4", "display": "A menudo" } },
+            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+          ]
+        },
+        {
+          "id": "q2",
+          "linkId": "q2",
+          "text": "Me sentía cuidado y protegido",
+          "type": "choice",
+          "required": true,
+          "answerOption": [
+            { "valueCoding": { "code": "1", "display": "Nunca" } },
+            { "valueCoding": { "code": "2", "display": "Raramente" } },
+            { "valueCoding": { "code": "3", "display": "A veces" } },
+            { "valueCoding": { "code": "4", "display": "A menudo" } },
+            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+          ]
+        },
+        {
+          "id": "q3",
+          "linkId": "q3",
+          "text": "Algunos miembros de mi familia me llamaban \"tonto\", \"flojo\" o \"feo\"",
+          "type": "choice",
+          "required": true,
+          "answerOption": [
+            { "valueCoding": { "code": "1", "display": "Nunca" } },
+            { "valueCoding": { "code": "2", "display": "Raramente" } },
+            { "valueCoding": { "code": "3", "display": "A veces" } },
+            { "valueCoding": { "code": "4", "display": "A menudo" } },
+            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+          ]
+        },
+        {
+          "id": "q4",
+          "linkId": "q4",
+          "text": "Mis padres estaban demasiado borrachos o drogados para ocuparse de la familia",
+          "type": "choice",
+          "required": true,
+          "answerOption": [
+            { "valueCoding": { "code": "1", "display": "Nunca" } },
+            { "valueCoding": { "code": "2", "display": "Raramente" } },
+            { "valueCoding": { "code": "3", "display": "A veces" } },
+            { "valueCoding": { "code": "4", "display": "A menudo" } },
+            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+          ]
+        },
+        {
+          "id": "q5",
+          "linkId": "q5",
+          "text": "Alguien de mi familia me hacía sentir importante o especial",
+          "type": "choice",
+          "required": true,
+          "answerOption": [
+            { "valueCoding": { "code": "1", "display": "Nunca" } },
+            { "valueCoding": { "code": "2", "display": "Raramente" } },
+            { "valueCoding": { "code": "3", "display": "A veces" } },
+            { "valueCoding": { "code": "4", "display": "A menudo" } },
+            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+          ]
+        },
+        {
+          "id": "q6",
+          "linkId": "q6",
+          "text": "Tenía que vestirme con ropa sucia",
+          "type": "choice",
+          "required": true,
+          "answerOption": [
+            { "valueCoding": { "code": "1", "display": "Nunca" } },
+            { "valueCoding": { "code": "2", "display": "Raramente" } },
+            { "valueCoding": { "code": "3", "display": "A veces" } },
+            { "valueCoding": { "code": "4", "display": "A menudo" } },
+            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+          ]
+        },
+        {
+          "id": "q7",
+          "linkId": "q7",
+          "text": "Me sentía querido",
+          "type": "choice",
+          "required": true,
+          "answerOption": [
+            { "valueCoding": { "code": "1", "display": "Nunca" } },
+            { "valueCoding": { "code": "2", "display": "Raramente" } },
+            { "valueCoding": { "code": "3", "display": "A veces" } },
+            { "valueCoding": { "code": "4", "display": "A menudo" } },
+            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+          ]
+        },
+        {
+          "id": "q8",
+          "linkId": "q8",
+          "text": "Pensaba que mis padres no querían que hubiera nacido",
+          "type": "choice",
+          "required": true,
+          "answerOption": [
+            { "valueCoding": { "code": "1", "display": "Nunca" } },
+            { "valueCoding": { "code": "2", "display": "Raramente" } },
+            { "valueCoding": { "code": "3", "display": "A veces" } },
+            { "valueCoding": { "code": "4", "display": "A menudo" } },
+            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+          ]
+        },
+        {
+          "id": "q9",
+          "linkId": "q9",
+          "text": "Me golpeaban tan fuerte que tuve que ir al médico o al hospital",
+          "type": "choice",
+          "required": true,
+          "answerOption": [
+            { "valueCoding": { "code": "1", "display": "Nunca" } },
+            { "valueCoding": { "code": "2", "display": "Raramente" } },
+            { "valueCoding": { "code": "3", "display": "A veces" } },
+            { "valueCoding": { "code": "4", "display": "A menudo" } },
+            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+          ]
+        },
+        {
+          "id": "q10",
+          "linkId": "q10",
+          "text": "No he querido cambiar de familia",
+          "type": "choice",
+          "required": true,
+          "answerOption": [
+            { "valueCoding": { "code": "1", "display": "Nunca" } },
+            { "valueCoding": { "code": "2", "display": "Raramente" } },
+            { "valueCoding": { "code": "3", "display": "A veces" } },
+            { "valueCoding": { "code": "4", "display": "A menudo" } },
+            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+          ]
+        },
+
+        {
+          "id": "q11",
+          "linkId": "q11",
+          "text": "Algún miembro de mi familia me pegaba tan fuerte que me dejaba marcas o moretones",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q12",
+          "linkId": "q12",
+          "text": "Me castigaban con un cinturón, un palo, una cuerda u otro objeto contundente",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q13",
+          "linkId": "q13",
+          "text": "Los miembros de mi familia cuidaban unos de otros",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q14",
+          "linkId": "q14",
+          "text": "Miembros de mi familia me insultaban o decían cosas que me hacían daño",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q15",
+          "linkId": "q15",
+          "text": "Creo que he sido maltratado físicamente",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q16",
+          "linkId": "q16",
+          "text": "He tenido una infancia perfecta",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q17",
+          "linkId": "q17",
+          "text": "Me golpeaban tan fuerte que alguien llegó a notar las marcas (ej. un profesor, un vecino o un médico)",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q18",
+          "linkId": "q18",
+          "text": "Sentía que alguien de mi familia me odiaba",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q19",
+          "linkId": "q19",
+          "text": "Los miembros de mi familia se sentían cercanos entre sí",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q20",
+          "linkId": "q20",
+          "text": "Alguien intentó tocarme o me hizo hacer tocaciones sexuales",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q21",
+          "linkId": "q21",
+          "text": "Alguien me amenazó con hacerme daño si no hacía algún acto sexual con él o ella",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q22",
+          "linkId": "q22",
+          "text": "Tenía la mejor familia del mundo",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q23",
+          "linkId": "q23",
+          "text": "Alguien me obligó a hacer actos sexuales o me hizo ver tales actos",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q24",
+          "linkId": "q24",
+          "text": "He sido víctima de acoso sexual",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q25",
+          "linkId": "q25",
+          "text": "Creo que sufrí maltrato psicológico",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q26",
+          "linkId": "q26",
+          "text": "Había alguien que me llevaba al médico si lo necesitaba",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q27",
+          "linkId": "q27",
+          "text": "Pienso que han abusado de mi sexualmente",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        },
+        {
+          "id": "q28",
+          "linkId": "q28",
+          "text": "Mi familia era una fuente de seguridad y apoyo",
+          "type": "choice",
+          "required": true,
+          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+        }
+      ]
+    }
+  ]
+}

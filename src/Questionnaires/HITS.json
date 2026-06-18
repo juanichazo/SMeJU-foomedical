@@ -1,0 +1,167 @@
+{
+  "resourceType": "Questionnaire",
+  "status": "active",
+  "name": "HITS",
+  "title": "HITS - Hurt, Insult, Threaten, Scream",
+  "url": "https://example.org/fhir/Questionnaire/HITS",
+  "version": "1.0.0",
+  "publisher": "Proyecto Salud Mental",
+  "description": "Herramienta breve de cribado de violencia de pareja (Intimate Partner Violence).",
+  "subjectType": [
+    "Patient"
+  ],
+  "item": [
+    {
+      "linkId": "hits-1",
+      "text": "¿Con qué frecuencia su pareja le lastima físicamente?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "1",
+            "display": "Nunca"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "2",
+            "display": "Rara vez"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "3",
+            "display": "A veces"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "4",
+            "display": "Con bastante frecuencia"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "5",
+            "display": "Frecuentemente"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "hits-2",
+      "text": "¿Con qué frecuencia su pareja le insulta o le menosprecia?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "1",
+            "display": "Nunca"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "2",
+            "display": "Rara vez"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "3",
+            "display": "A veces"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "4",
+            "display": "Con bastante frecuencia"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "5",
+            "display": "Frecuentemente"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "hits-3",
+      "text": "¿Con qué frecuencia su pareja le amenaza con hacerle daño?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "1",
+            "display": "Nunca"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "2",
+            "display": "Rara vez"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "3",
+            "display": "A veces"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "4",
+            "display": "Con bastante frecuencia"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "5",
+            "display": "Frecuentemente"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "hits-4",
+      "text": "¿Con qué frecuencia su pareja le grita o le insulta verbalmente?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "1",
+            "display": "Nunca"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "2",
+            "display": "Rara vez"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "3",
+            "display": "A veces"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "4",
+            "display": "Con bastante frecuencia"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "5",
+            "display": "Frecuentemente"
+          }
+        }
+      ]
+    }
+  ]
+}
