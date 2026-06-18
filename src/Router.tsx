@@ -32,10 +32,12 @@ import { SignOutPage } from './pages/SignOutPage';
 export function Router(): JSX.Element {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/" element={<QuestionnairePage />} />
+      <Route path="home" element={<HomePage />} />
       <Route path="Communication" element={<MessagesPage />}>
         <Route path=":messageId" element={<MessagesPage />} />
       </Route>
+      <Route path="Questionnaire" element={<QuestionnairePage />} />
       <Route path="Questionnaire/:questionnaireId" element={<QuestionnairePage />} />
       <Route path="screening-questionnaire" element={<ScreeningQuestionnairePage />} />
       <Route path="patient-intake-questionnaire" element={<PatientIntakeQuestionnairePage />} />
