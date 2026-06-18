@@ -15,7 +15,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000,
-    allowedHosts: ['smeju.medplum.com.ar']
+    allowedHosts: ['dev.smeju.medplum.com.ar']
   },
   test: {
     environment: 'jsdom',
