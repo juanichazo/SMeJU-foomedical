@@ -4,52 +4,52 @@
   "url": "http://tu-org.com/fhir/Questionnaire/audit",
   "version": "1.0.0",
   "name": "AUDITAlcoholUse",
-  "title": "Alcohol Use Disorders Identification Test (AUDIT)",
+  "title": "Cuestionario de Identificación de Trastornos por Consumo de Alcohol (AUDIT)",
   "status": "active",
   "date": "2026-04-20",
   "publisher": "World Health Organization (WHO)",
-  "description": "AUDIT is a 10-item screening tool to assess alcohol consumption, drinking behaviors, and alcohol-related problems.",
+  "description": "AUDIT es una herramienta de cribado de 10 ítems para evaluar el consumo de alcohol, los hábitos de bebida y problemas relacionados con el alcohol.",
   "subjectType": ["Patient"],
   "item": [
     {
       "linkId": "audit_01",
-      "text": "How often do you have a drink containing alcohol?",
+      "text": "¿Con qué frecuencia toma bebidas que contienen alcohol?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Monthly or less" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "2 to 4 times a month" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "2 to 3 times a week" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "4 or more times a week" }}
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Nunca" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Mensualmente o menos" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "2 a 4 veces al mes" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "2 a 3 veces por semana" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "4 o más veces por semana" }}
       ]
     },
     {
       "linkId": "audit_02",
-      "text": "How many drinks containing alcohol do you have on a typical day when you are drinking?",
+      "text": "¿Cuántas bebidas con alcohol suele consumir en un día típico en que bebe?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "1 or 2" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "3 or 4" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "5 or 6" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "7 to 9" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "10 or more" }}
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "1 o 2" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "3 o 4" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "5 o 6" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "7 a 9" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "10 o más" }}
       ]
     },
     {
       "linkId": "audit_03",
-      "text": "How often do you have six or more drinks on one occasion?",
+      "text": "¿Con qué frecuencia toma seis o más bebidas en una sola ocasión?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Nunca" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Menos de una vez al mes" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Mensualmente" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Semanalmente" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Diario o casi diario" }}
       ]
     },
     {
       "linkId": "audit_04",
-      "text": "How often during the last year have you found that you were not able to stop drinking once you had started?",
+      "text": "Durante el último año, ¿con qué frecuencia ha descubierto que no podía dejar de beber una vez que había empezado?",
       "type": "choice",
       "answerOption": [
         { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
@@ -61,7 +61,7 @@
     },
     {
       "linkId": "audit_05",
-      "text": "How often during the last year have you failed to do what was normally expected from you because of drinking?",
+      "text": "Durante el último año, ¿con qué frecuencia no cumplió con lo que normalmente se esperaba de usted debido al consumo de alcohol?",
       "type": "choice",
       "answerOption": [
         { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
@@ -73,7 +73,7 @@
     },
     {
       "linkId": "audit_06",
-      "text": "How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?",
+      "text": "Durante el último año, ¿con qué frecuencia necesitó una bebida por la mañana para poder continuar después de una gran ingesta de alcohol?",
       "type": "choice",
       "answerOption": [
         { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
@@ -85,7 +85,7 @@
     },
     {
       "linkId": "audit_07",
-      "text": "How often during the last year have you had a feeling of guilt or remorse after drinking?",
+      "text": "Durante el último año, ¿con qué frecuencia ha sentido culpa o remordimiento después de beber?",
       "type": "choice",
       "answerOption": [
         { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
@@ -97,7 +97,7 @@
     },
     {
       "linkId": "audit_08",
-      "text": "How often during the last year have you been unable to remember what happened the night before because you had been drinking?",
+      "text": "Durante el último año, ¿con qué frecuencia no pudo recordar lo que sucedió la noche anterior por haber bebido?",
       "type": "choice",
       "answerOption": [
         { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
@@ -109,22 +109,22 @@
     },
     {
       "linkId": "audit_09",
-      "text": "Have you or someone else been injured as a result of your drinking?",
+      "text": "¿Usted o alguien más ha resultado herido como resultado de su consumo de alcohol?",
       "type": "choice",
       "answerOption": [
         { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "No" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Yes, but not in the last year" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Yes, during the last year" }}
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Sí, pero no en el último año" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Sí, durante el último año" }}
       ]
     },
     {
       "linkId": "audit_10",
-      "text": "Has a relative, friend, doctor or other health worker been concerned about your drinking or suggested you cut down?",
+      "text": "¿Algún familiar, amigo, médico u otro profesional de la salud ha mostrado preocupación por su consumo de alcohol o le ha sugerido reducirlo?",
       "type": "choice",
       "answerOption": [
         { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "No" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Yes, but not in the last year" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Yes, during the last year" }}
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Sí, pero no en el último año" }},
+        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Sí, durante el último año" }}
       ]
     }
   ]
