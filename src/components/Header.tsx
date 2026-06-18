@@ -1,28 +1,27 @@
 // SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
 // SPDX-License-Identifier: Apache-2.0
-import { AppShell, Burger, Container, Group, Menu, UnstyledButton, useMantineTheme } from '@mantine/core';
+import { AppShell, Container, Group, Menu, UnstyledButton, useMantineTheme } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { ResourceAvatar, useMedplumProfile } from '@medplum/react';
 import { IconChevronDown, IconLogout, IconSettings, IconUserCircle } from '@tabler/icons-react';
 import cx from 'clsx';
 import { useState } from 'react';
 import type { JSX } from 'react';
-import { Link, useNavigate } from 'react-router';
+import { useNavigate } from 'react-router';
 import classes from './Header.module.css';
 import { Logo } from './Logo';
 
-const navigation = [
-  { name: 'Health Record', href: '/health-record' },
-  { name: 'Messages', href: '/Communication' },
-  { name: 'Care Plan', href: '/care-plan' },
-  { name: 'Get Care', href: '/get-care' },
-];
+// const navigation = [
+//   { name: 'Health Record', href: '/health-record' },
+//   { name: 'Messages', href: '/Communication' },
+//   { name: 'Care Plan', href: '/care-plan' },
+//   { name: 'Get Care', href: '/get-care' },
+// ];
 
 export function Header(): JSX.Element {
   const navigate = useNavigate();
   const profile = useMedplumProfile();
   const theme = useMantineTheme();
-  const [opened, { toggle }] = useDisclosure(false);
   const [userMenuOpened, setUserMenuOpened] = useState(false);
 
   return (
@@ -32,13 +31,6 @@ export function Header(): JSX.Element {
           <UnstyledButton className={classes.logoButton} onClick={() => navigate('/')?.catch(console.error)}>
             <Logo width={240} />
           </UnstyledButton>
-          <Group gap={5} className={classes.links}>
-            {navigation.map((link) => (
-              <Link key={link.name} to={link.href} className={classes.link}>
-                {link.name}
-              </Link>
-            ))}
-          </Group>
           <Menu
             width={260}
             shadow="xl"
@@ -76,7 +68,7 @@ export function Header(): JSX.Element {
               </Menu.Item>
             </Menu.Dropdown>
           </Menu>
-          <Burger opened={opened} onClick={toggle} className={classes.burger} size="sm" />
+          {/* <Burger opened={opened} onClick={toggle} className={classes.burger} size="sm" /> */}
         </div>
       </Container>
     </AppShell.Header>

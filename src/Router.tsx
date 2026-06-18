@@ -33,38 +33,27 @@ export function Router(): JSX.Element {
   return (
     <Routes>
       <Route path="/" element={<QuestionnairePage />} />
-      <Route path="home" element={<HomePage />} />
-      <Route path="Communication" element={<MessagesPage />}>
-        <Route path=":messageId" element={<MessagesPage />} />
-      </Route>
+      {/* <Route path="home" element={<HomePage />} /> */}
+      {/* <Route path="Communication" element={<MessagesPage />}> */}
+      {/*   <Route path=":messageId" element={<MessagesPage />} /> */}
+      {/* </Route> */}
       <Route path="Questionnaire" element={<QuestionnairePage />} />
       <Route path="Questionnaire/:questionnaireId" element={<QuestionnairePage />} />
-      <Route path="screening-questionnaire" element={<ScreeningQuestionnairePage />} />
-      <Route path="patient-intake-questionnaire" element={<PatientIntakeQuestionnairePage />} />
-      <Route path="health-record" element={<HealthRecord />}>
-        <Route index element={<Navigate replace to="/health-record/lab-results" />} />
-        <Route path="lab-results" element={<LabResults />} />
-        <Route path="lab-results/:resultId" element={<LabResult />} />
-        <Route path="medications" element={<Medications />} />
-        <Route path="medications/:medicationId" element={<Medication />} />
-        <Route path="questionnaire-responses" element={<Responses />} />
-        <Route path="questionnaire-responses/:responseId" element={<Response />} />
-        <Route path="vaccines" element={<Vaccines />} />
-        <Route path="vaccines/:vaccineId" element={<Vaccine />} />
-        <Route path="vitals" element={<Vitals />} />
-        <Route path="vitals/:measurementId" element={<Measurement />} />
-      </Route>
-      <Route path="Observation/:observationId" element={<ObservationPage />} />
-      <Route path="care-plan" element={<CarePlanPage />}>
+      {/* <Route path="screening-questionnaire" element={<ScreeningQuestionnairePage />} /> */}
+      {/* <Route path="patient-intake-questionnaire" element={<PatientIntakeQuestionnairePage />} /> */}
+      <Route path="health-record/questionnaire-responses" element={<Responses />} />
+      <Route path="health-record/questionnaire-responses/:responseId" element={<Response />} />
+      {/* <Route path="Observation/:observationId" element={<ObservationPage />} /> */}
+      {/* <Route path="care-plan" element={<CarePlanPage />}>
         <Route index element={<Navigate replace to="/care-plan/action-items" />} />
         <Route path="action-items" element={<ActionItems />} />
         <Route path="action-items/:itemId" element={<ActionItem />} />
-      </Route>
-      <Route path="get-care" element={<GetCare />} />
+      </Route> */}
+      {/* <Route path="get-care" element={<GetCare />} /> */}
       <Route path="account" element={<AccountPage />}>
         <Route index element={<Navigate replace to="/account/profile" />} />
         <Route path="profile" element={<Profile />} />
-        <Route path="provider" element={<Provider />} />
+        {/* <Route path="provider" element={<Provider />} /> */}
         <Route path="membership-and-billing" element={<MembershipAndBilling />} />
       </Route>
       <Route path="signout" element={<SignOutPage />} />

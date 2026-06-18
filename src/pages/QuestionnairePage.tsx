@@ -5,7 +5,7 @@ import { normalizeErrorString } from '@medplum/core';
 import type { Questionnaire, QuestionnaireResponse } from '@medplum/fhirtypes';
 import { Document, QuestionnaireForm, useMedplum } from '@medplum/react';
 import { IconCircleCheck, IconCircleOff } from '@tabler/icons-react';
-import { Box, Button, Card, Container, Group, Stack, Text, Title } from '@mantine/core';
+import { Box, Button, Card, Container, Text, Title } from '@mantine/core';
 import { useCallback } from 'react';
 import type { JSX } from 'react';
 import { useNavigate, useParams } from 'react-router';
@@ -73,15 +73,15 @@ export function QuestionnairePage(): JSX.Element {
     return (
       <Document width={800}>
         <Container py="xl">
-          <Stack spacing="xl">
+          <Box>
             <Title order={2}>Complete a Questionnaire</Title>
             <Text color="dimmed">
               Choose one of the available questionnaires below, then complete it to record your answers.
             </Text>
-            <Stack spacing="md">
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginTop: 12 }}>
               {questionnaireList.map(({ slug, questionnaire }) => (
                 <Card key={slug} shadow="sm" radius="md" p="xl">
-                  <Group position="apart" align="flex-start">
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                     <div>
                       <Text fw={700}>{questionnaire.title ?? questionnaire.name ?? slug}</Text>
                       {questionnaire.description ? (
@@ -93,11 +93,11 @@ export function QuestionnairePage(): JSX.Element {
                     <Button onClick={() => navigate(`/Questionnaire/${slug}`)?.catch(console.error)}>
                       Start
                     </Button>
-                  </Group>
+                  </div>
                 </Card>
               ))}
-            </Stack>
-          </Stack>
+            </div>
+          </Box>
         </Container>
       </Document>
     );

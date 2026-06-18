@@ -12,6 +12,10 @@ import { Loading } from './components/Loading';
 import { RegisterPage } from './pages/RegisterPage';
 import { SignInPage } from './pages/SignInPage';
 import { LandingPage } from './pages/landing';
+import { useMedplumProfile } from '@medplum/react';
+import { useLocation } from 'react-router';
+import DatosQuestionnaire from './Questionnaires/DatosSociodemograficosEstudiantes.json';
+import { getReferenceString } from '@medplum/core';
 
 export function App(): JSX.Element | null {
   const medplum = useMedplum();
@@ -37,11 +41,46 @@ export function App(): JSX.Element | null {
       <AppShell.Main>
         <ErrorBoundary>
           <Suspense fallback={<Loading />}>
-            <Router />
+            <InitialQuestionnaireGate>
+              <Router />
+            </InitialQuestionnaireGate>
           </Suspense>
         </ErrorBoundary>
       </AppShell.Main>
       <Footer />
     </AppShell>
   );
+}
+
+function InitialQuestionnaireGate({ children }: { children: JSX.Element }): JSX.Element {
+  const medplum = useMedplum();
+  const profile = useMedplumProfile();
+  const location = useLocation();
+
+  // Look for QuestionnaireResponse authored by this user for the required questionnaire
+  try {
+    if (!profile) {
+      return children;
+    }
+    const questionnaireUrl = (DatosQuestionnaire as any).url as string | undefined;
+    const responses = questionnaireUrl
+      ? medplum
+          .searchResources('QuestionnaireResponse', `questionnaire=${encodeURIComponent(questionnaireUrl)}&source=${getReferenceString(
+            profile
+          )}`)
+          .read()
+      : [];
+
+    const requiredPath = `/Questionnaire/${(DatosQuestionnaire as any).name ?? 'DatosSociodemograficosEstudiantes'}`;
+
+    if ((!responses || responses.length === 0) && location.pathname !== requiredPath) {
+      return <Navigate to={requiredPath} replace />;
+    }
+  } catch (e) {
+    // If the search fails for any reason, allow access to avoid locking out users
+    // (the Suspense boundary will handle loading states)
+    console.error('Initial questionnaire gate error', e);
+  }
+
+  return children;
 }

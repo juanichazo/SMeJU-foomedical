@@ -1,0 +1,228 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "4e64a3da-1928-4453-84f5-1d744668de35",
+  "url": "https://example.org/fhir/Questionnaire/datos-sociodemograficos-estudiantes",
+  "name": "DatosSociodemograficosEstudiantes",
+  "title": "Cuestionario de datos sociodemográficos",
+  "status": "active",
+  "subjectType": [
+    "Patient"
+  ],
+  "description": "Cuestionario para recopilar información sociodemográfica de estudiantes universitarios.",
+  "item": [
+    {
+      "linkId": "nombre",
+      "text": "Nombre completo",
+      "type": "string",
+      "required": true
+    },
+    {
+      "linkId": "edad",
+      "text": "¿Cuál es tu edad?",
+      "type": "integer",
+      "required": true
+    },
+    {
+      "linkId": "carrera",
+      "text": "¿Qué carrera estás cursando?",
+      "type": "string",
+      "required": true
+    },
+    {
+      "linkId": "facultad",
+      "text": "¿En qué facultad o institución estudiás?",
+      "type": "string",
+      "required": true
+    },
+    {
+      "linkId": "gestion-facultad",
+      "text": "La institución en la que estudiás es:",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "publica",
+            "display": "Pública"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "privada",
+            "display": "Privada"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "avance-carrera",
+      "text": "¿En qué etapa de tu carrera te encontrás?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "1",
+            "display": "Primer año"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "2",
+            "display": "Segundo año"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "3",
+            "display": "Tercer año"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "4",
+            "display": "Cuarto año"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "5",
+            "display": "Quinto año o superior"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "6",
+            "display": "Ya cursé todas las materias y estoy realizando trabajos finales o prácticas"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "99",
+            "display": "No estoy seguro/a"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "convivencia",
+      "text": "¿Con quién vivís actualmente?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "solo",
+            "display": "Solo/a"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "familia",
+            "display": "Con mi familia"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "pareja",
+            "display": "Con mi pareja"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "companeros",
+            "display": "Con compañeros/as de vivienda"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "otro",
+            "display": "Otra situación"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "mascota",
+      "text": "¿Tenés mascotas?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "si",
+            "display": "Sí"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "no",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "cantidad-mascotas",
+      "text": "¿Cuántas mascotas tenés?",
+      "type": "integer",
+      "enableWhen": [
+        {
+          "question": "mascota",
+          "operator": "=",
+          "answerCoding": {
+            "code": "si"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "enfermedad-base",
+      "text": "¿Tenés alguna enfermedad o condición médica diagnosticada que consideres importante informar?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "si",
+            "display": "Sí"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "no",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "detalle-enfermedad",
+      "text": "Por favor, indicá cuál o cuáles.",
+      "type": "text",
+      "enableWhen": [
+        {
+          "question": "enfermedad-base",
+          "operator": "=",
+          "answerCoding": {
+            "code": "si"
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "project": "52fc66e7-799c-4a80-bc2a-e051ee20d2e7",
+    "compartment": [
+      {
+        "reference": "Project/52fc66e7-799c-4a80-bc2a-e051ee20d2e7"
+      }
+    ],
+    "versionId": "bb18fc22-96ca-49ce-b8d3-900898a12e1b",
+    "lastUpdated": "2026-06-18T01:49:57.407Z",
+    "author": {
+      "reference": "Practitioner/5d3375be-f4d4-4f50-bfe4-c3fc238a10ab",
+      "display": "Juan Ichazo"
+    }
+  }
+}
