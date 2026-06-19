@@ -5,47 +5,34 @@ import { normalizeErrorString } from '@medplum/core';
 import type { Questionnaire, QuestionnaireResponse } from '@medplum/fhirtypes';
 import { Document, QuestionnaireForm, useMedplum } from '@medplum/react';
 import { IconCircleCheck, IconCircleOff } from '@tabler/icons-react';
-import { Box, Button, Card, Container, Text, Title } from '@mantine/core';
+import { Box, Button, Card, Stack, Text, Title } from '@mantine/core';
 import { useCallback } from 'react';
 import type { JSX } from 'react';
 import { useNavigate, useParams } from 'react-router';
+import { MEDPLUM_PROJECT_ID } from '../config';
 
-const questionnaireModules = import.meta.glob('../Questionnaires/*.json', { eager: true }) as Record<
-  string,
-  { default: Questionnaire }
->;
-
-const questionnaireList = Object.entries(questionnaireModules).map(([path, module]) => {
-  const filename = path.split('/').pop() ?? path;
-  const slug = filename.replace(/\.json$/i, '');
-  return {
-    slug,
-    questionnaire: module.default,
-  };
-});
-
-function findQuestionnaire(questionnaireId?: string): Questionnaire | undefined {
-  if (!questionnaireId) {
-    return undefined;
-  }
-
-  const normalized = questionnaireId.toLowerCase();
-  return questionnaireList.find(
-    ({ slug, questionnaire }) =>
-      slug.toLowerCase() === normalized ||
-      questionnaire.id?.toLowerCase() === normalized ||
-      questionnaire.name?.toLowerCase() === normalized
-  )?.questionnaire;
+function isProjectQuestionnaire(questionnaire: Questionnaire): boolean {
+  return !!questionnaire.id && questionnaire.meta?.project === MEDPLUM_PROJECT_ID;
 }
 
 export function QuestionnairePage(): JSX.Element {
   const navigate = useNavigate();
   const medplum = useMedplum();
-  const { questionnaireId } = useParams<{ questionnaireId: string }>();
-  const questionnaire = findQuestionnaire(questionnaireId);
+  const { questionnaireId } = useParams();
+  const questionnaires = medplum
+    .searchResources('Questionnaire', 'status=active&_sort=title')
+    .read()
+    .filter(isProjectQuestionnaire);
+  const questionnaire = questionnaireId
+    ? questionnaires.find((questionnaire) => questionnaire.id === questionnaireId)
+    : undefined;
 
   const handleOnSubmit = useCallback(
     (response: QuestionnaireResponse) => {
+      if (!questionnaire) {
+        return;
+      }
+
       medplum
         .createResource(response)
         .then(() => {
@@ -66,49 +53,38 @@ export function QuestionnairePage(): JSX.Element {
           });
         });
     },
-    [medplum, navigate]
+    [medplum, navigate, questionnaire]
   );
-
-  if (!questionnaireId) {
-    return (
-      <Document width={800}>
-        <Container py="xl">
-          <Box>
-            <Title order={2}>Complete a Questionnaire</Title>
-            <Text color="dimmed">
-              Choose one of the available questionnaires below, then complete it to record your answers.
-            </Text>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginTop: 12 }}>
-              {questionnaireList.map(({ slug, questionnaire }) => (
-                <Card key={slug} shadow="sm" radius="md" p="xl">
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-                    <div>
-                      <Text fw={700}>{questionnaire.title ?? questionnaire.name ?? slug}</Text>
-                      {questionnaire.description ? (
-                        <Text size="sm" color="dimmed" mt="xs">
-                          {questionnaire.description}
-                        </Text>
-                      ) : null}
-                    </div>
-                    <Button onClick={() => navigate(`/Questionnaire/${slug}`)?.catch(console.error)}>
-                      Start
-                    </Button>
-                  </div>
-                </Card>
-              ))}
-            </div>
-          </Box>
-        </Container>
-      </Document>
-    );
-  }
 
   if (!questionnaire) {
     return (
       <Document width={800}>
         <Box py="xl">
-          <Title order={2}>Questionnaire not found</Title>
-          <Text color="dimmed">Please select a questionnaire from the list.</Text>
+          <Title order={2}>{questionnaireId ? 'Questionnaire not found' : 'Complete a Questionnaire'}</Title>
+          <Text color="dimmed" mb="lg">
+            {questionnaireId
+              ? 'Please select a questionnaire from the list.'
+              : 'Choose one of the available questionnaires below, then complete it to record your answers.'}
+          </Text>
+          <Stack gap="md">
+            {questionnaires.map((questionnaire) => (
+              <Card key={questionnaire.id} shadow="sm" radius="md" p="xl">
+                <Stack gap="sm">
+                  <Box>
+                    <Text fw={700}>{questionnaire.title ?? questionnaire.name ?? questionnaire.id}</Text>
+                    {questionnaire.description ? (
+                      <Text size="sm" color="dimmed" mt="xs">
+                        {questionnaire.description}
+                      </Text>
+                    ) : null}
+                  </Box>
+                  <Button onClick={() => navigate(`/Questionnaire/${questionnaire.id}`)?.catch(console.error)}>
+                    Start
+                  </Button>
+                </Stack>
+              </Card>
+            ))}
+          </Stack>
         </Box>
       </Document>
     );

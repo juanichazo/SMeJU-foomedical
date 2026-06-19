@@ -14,8 +14,10 @@ import { SignInPage } from './pages/SignInPage';
 import { LandingPage } from './pages/landing';
 import { useMedplumProfile } from '@medplum/react';
 import { useLocation } from 'react-router';
-import DatosQuestionnaire from './Questionnaires/DatosSociodemograficosEstudiantes.json';
 import { getReferenceString } from '@medplum/core';
+import { MEDPLUM_PROJECT_ID } from './config';
+
+const REQUIRED_INITIAL_QUESTIONNAIRE_NAME = 'DatosSociodemograficosEstudiantes';
 
 export function App(): JSX.Element | null {
   const medplum = useMedplum();
@@ -62,7 +64,11 @@ function InitialQuestionnaireGate({ children }: { children: JSX.Element }): JSX.
     if (!profile) {
       return children;
     }
-    const questionnaireUrl = (DatosQuestionnaire as any).url as string | undefined;
+    const requiredQuestionnaire = medplum
+      .searchResources('Questionnaire', `name=${REQUIRED_INITIAL_QUESTIONNAIRE_NAME}&status=active`)
+      .read()
+      .find((questionnaire) => questionnaire.meta?.project === MEDPLUM_PROJECT_ID);
+    const questionnaireUrl = requiredQuestionnaire?.url;
     const responses = questionnaireUrl
       ? medplum
           .searchResources('QuestionnaireResponse', `questionnaire=${encodeURIComponent(questionnaireUrl)}&source=${getReferenceString(
@@ -71,10 +77,10 @@ function InitialQuestionnaireGate({ children }: { children: JSX.Element }): JSX.
           .read()
       : [];
 
-    const requiredPath = `/Questionnaire/${(DatosQuestionnaire as any).name ?? 'DatosSociodemograficosEstudiantes'}`;
+    const isQuestionnairePath = location.pathname === '/Questionnaire' || location.pathname.startsWith('/Questionnaire/');
 
-    if ((!responses || responses.length === 0) && location.pathname !== requiredPath) {
-      return <Navigate to={requiredPath} replace />;
+    if (requiredQuestionnaire && (!responses || responses.length === 0) && !isQuestionnairePath) {
+      return <Navigate to="/Questionnaire" replace />;
     }
   } catch (e) {
     // If the search fails for any reason, allow access to avoid locking out users
