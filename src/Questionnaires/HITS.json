@@ -164,5 +164,19 @@
         }
       ]
     }
-  ]
+  ],
+  "meta": {
+    "versionId": "9ea52b10-80c2-4a67-ab53-acc7f723b17a",
+    "lastUpdated": "2026-06-18T18:46:29.248Z",
+    "author": {
+      "reference": "Practitioner/5d3375be-f4d4-4f50-bfe4-c3fc238a10ab",
+      "display": "Juan Ichazo"
+    },
+    "project": "52fc66e7-799c-4a80-bc2a-e051ee20d2e7",
+    "compartment": [
+      {
+        "reference": "Project/52fc66e7-799c-4a80-bc2a-e051ee20d2e7"
+      }
+    ]
+  }
 }

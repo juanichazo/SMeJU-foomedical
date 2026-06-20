@@ -1,6 +1,6 @@
 {
   "resourceType": "Questionnaire",
-  "id" : "2d887039-8cdf-4d6e-ae17-f2af68a8d201",
+  "id": "2d887039-8cdf-4d6e-ae17-f2af68a8d201",
   "url": "https://example.org/fhir/Questionnaire/ctq-sf",
   "name": "CTQSF",
   "title": "Childhood Trauma Questionnaire - Short Form (CTQ-SF)",
@@ -22,11 +22,36 @@
           "type": "choice",
           "required": true,
           "answerOption": [
-            { "valueCoding": { "code": "1", "display": "Nunca" } },
-            { "valueCoding": { "code": "2", "display": "Raramente" } },
-            { "valueCoding": { "code": "3", "display": "A veces" } },
-            { "valueCoding": { "code": "4", "display": "A menudo" } },
-            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
           ]
         },
         {
@@ -36,11 +61,36 @@
           "type": "choice",
           "required": true,
           "answerOption": [
-            { "valueCoding": { "code": "1", "display": "Nunca" } },
-            { "valueCoding": { "code": "2", "display": "Raramente" } },
-            { "valueCoding": { "code": "3", "display": "A veces" } },
-            { "valueCoding": { "code": "4", "display": "A menudo" } },
-            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
           ]
         },
         {
@@ -50,11 +100,36 @@
           "type": "choice",
           "required": true,
           "answerOption": [
-            { "valueCoding": { "code": "1", "display": "Nunca" } },
-            { "valueCoding": { "code": "2", "display": "Raramente" } },
-            { "valueCoding": { "code": "3", "display": "A veces" } },
-            { "valueCoding": { "code": "4", "display": "A menudo" } },
-            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
           ]
         },
         {
@@ -64,11 +139,36 @@
           "type": "choice",
           "required": true,
           "answerOption": [
-            { "valueCoding": { "code": "1", "display": "Nunca" } },
-            { "valueCoding": { "code": "2", "display": "Raramente" } },
-            { "valueCoding": { "code": "3", "display": "A veces" } },
-            { "valueCoding": { "code": "4", "display": "A menudo" } },
-            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
           ]
         },
         {
@@ -78,11 +178,36 @@
           "type": "choice",
           "required": true,
           "answerOption": [
-            { "valueCoding": { "code": "1", "display": "Nunca" } },
-            { "valueCoding": { "code": "2", "display": "Raramente" } },
-            { "valueCoding": { "code": "3", "display": "A veces" } },
-            { "valueCoding": { "code": "4", "display": "A menudo" } },
-            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
           ]
         },
         {
@@ -92,11 +217,36 @@
           "type": "choice",
           "required": true,
           "answerOption": [
-            { "valueCoding": { "code": "1", "display": "Nunca" } },
-            { "valueCoding": { "code": "2", "display": "Raramente" } },
-            { "valueCoding": { "code": "3", "display": "A veces" } },
-            { "valueCoding": { "code": "4", "display": "A menudo" } },
-            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
           ]
         },
         {
@@ -106,11 +256,36 @@
           "type": "choice",
           "required": true,
           "answerOption": [
-            { "valueCoding": { "code": "1", "display": "Nunca" } },
-            { "valueCoding": { "code": "2", "display": "Raramente" } },
-            { "valueCoding": { "code": "3", "display": "A veces" } },
-            { "valueCoding": { "code": "4", "display": "A menudo" } },
-            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
           ]
         },
         {
@@ -120,11 +295,36 @@
           "type": "choice",
           "required": true,
           "answerOption": [
-            { "valueCoding": { "code": "1", "display": "Nunca" } },
-            { "valueCoding": { "code": "2", "display": "Raramente" } },
-            { "valueCoding": { "code": "3", "display": "A veces" } },
-            { "valueCoding": { "code": "4", "display": "A menudo" } },
-            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
           ]
         },
         {
@@ -134,11 +334,36 @@
           "type": "choice",
           "required": true,
           "answerOption": [
-            { "valueCoding": { "code": "1", "display": "Nunca" } },
-            { "valueCoding": { "code": "2", "display": "Raramente" } },
-            { "valueCoding": { "code": "3", "display": "A veces" } },
-            { "valueCoding": { "code": "4", "display": "A menudo" } },
-            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
           ]
         },
         {
@@ -148,21 +373,76 @@
           "type": "choice",
           "required": true,
           "answerOption": [
-            { "valueCoding": { "code": "1", "display": "Nunca" } },
-            { "valueCoding": { "code": "2", "display": "Raramente" } },
-            { "valueCoding": { "code": "3", "display": "A veces" } },
-            { "valueCoding": { "code": "4", "display": "A menudo" } },
-            { "valueCoding": { "code": "5", "display": "Casi siempre" } }
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
           ]
         },
-
         {
           "id": "q11",
           "linkId": "q11",
           "text": "Algún miembro de mi familia me pegaba tan fuerte que me dejaba marcas o moretones",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q12",
@@ -170,7 +450,38 @@
           "text": "Me castigaban con un cinturón, un palo, una cuerda u otro objeto contundente",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q13",
@@ -178,7 +489,38 @@
           "text": "Los miembros de mi familia cuidaban unos de otros",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q14",
@@ -186,7 +528,38 @@
           "text": "Miembros de mi familia me insultaban o decían cosas que me hacían daño",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q15",
@@ -194,7 +567,38 @@
           "text": "Creo que he sido maltratado físicamente",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q16",
@@ -202,7 +606,38 @@
           "text": "He tenido una infancia perfecta",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q17",
@@ -210,7 +645,38 @@
           "text": "Me golpeaban tan fuerte que alguien llegó a notar las marcas (ej. un profesor, un vecino o un médico)",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q18",
@@ -218,7 +684,38 @@
           "text": "Sentía que alguien de mi familia me odiaba",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q19",
@@ -226,7 +723,38 @@
           "text": "Los miembros de mi familia se sentían cercanos entre sí",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q20",
@@ -234,7 +762,38 @@
           "text": "Alguien intentó tocarme o me hizo hacer tocaciones sexuales",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q21",
@@ -242,7 +801,38 @@
           "text": "Alguien me amenazó con hacerme daño si no hacía algún acto sexual con él o ella",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q22",
@@ -250,7 +840,38 @@
           "text": "Tenía la mejor familia del mundo",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q23",
@@ -258,7 +879,38 @@
           "text": "Alguien me obligó a hacer actos sexuales o me hizo ver tales actos",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q24",
@@ -266,7 +918,38 @@
           "text": "He sido víctima de acoso sexual",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q25",
@@ -274,7 +957,38 @@
           "text": "Creo que sufrí maltrato psicológico",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q26",
@@ -282,7 +996,38 @@
           "text": "Había alguien que me llevaba al médico si lo necesitaba",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q27",
@@ -290,7 +1035,38 @@
           "text": "Pienso que han abusado de mi sexualmente",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         },
         {
           "id": "q28",
@@ -298,9 +1074,54 @@
           "text": "Mi familia era una fuente de seguridad y apoyo",
           "type": "choice",
           "required": true,
-          "answerOption": [{ "valueCoding": { "code": "1", "display": "Nunca" } }, { "valueCoding": { "code": "2", "display": "Raramente" } }, { "valueCoding": { "code": "3", "display": "A veces" } }, { "valueCoding": { "code": "4", "display": "A menudo" } }, { "valueCoding": { "code": "5", "display": "Casi siempre" } }]
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Nunca"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Raramente"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "A veces"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "A menudo"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "5",
+                "display": "Casi siempre"
+              }
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "meta": {
+    "versionId": "5cd872b0-31d8-4510-af9f-88c4d41c88c5",
+    "lastUpdated": "2026-06-18T17:21:08.463Z",
+    "author": {
+      "reference": "Practitioner/5d3375be-f4d4-4f50-bfe4-c3fc238a10ab",
+      "display": "Juan Ichazo"
+    },
+    "project": "52fc66e7-799c-4a80-bc2a-e051ee20d2e7",
+    "compartment": [
+      {
+        "reference": "Project/52fc66e7-799c-4a80-bc2a-e051ee20d2e7"
+      }
+    ]
+  }
 }

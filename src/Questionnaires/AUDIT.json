@@ -9,18 +9,50 @@
   "date": "2026-04-20",
   "publisher": "World Health Organization (WHO)",
   "description": "AUDIT es una herramienta de cribado de 10 ítems para evaluar el consumo de alcohol, los hábitos de bebida y problemas relacionados con el alcohol.",
-  "subjectType": ["Patient"],
+  "subjectType": [
+    "Patient"
+  ],
   "item": [
     {
       "linkId": "audit_01",
       "text": "¿Con qué frecuencia toma bebidas que contienen alcohol?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Nunca" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Mensualmente o menos" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "2 a 4 veces al mes" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "2 a 3 veces por semana" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "4 o más veces por semana" }}
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "0",
+            "display": "Nunca"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "1",
+            "display": "Mensualmente o menos"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "2",
+            "display": "2 a 4 veces al mes"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "3",
+            "display": "2 a 3 veces por semana"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "4",
+            "display": "4 o más veces por semana"
+          }
+        }
       ]
     },
     {
@@ -28,11 +60,41 @@
       "text": "¿Cuántas bebidas con alcohol suele consumir en un día típico en que bebe?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "1 o 2" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "3 o 4" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "5 o 6" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "7 a 9" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "10 o más" }}
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "0",
+            "display": "1 o 2"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "1",
+            "display": "3 o 4"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "2",
+            "display": "5 o 6"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "3",
+            "display": "7 a 9"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "4",
+            "display": "10 o más"
+          }
+        }
       ]
     },
     {
@@ -40,11 +102,41 @@
       "text": "¿Con qué frecuencia toma seis o más bebidas en una sola ocasión?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Nunca" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Menos de una vez al mes" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Mensualmente" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Semanalmente" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Diario o casi diario" }}
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "0",
+            "display": "Nunca"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "1",
+            "display": "Menos de una vez al mes"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "2",
+            "display": "Mensualmente"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "3",
+            "display": "Semanalmente"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "4",
+            "display": "Diario o casi diario"
+          }
+        }
       ]
     },
     {
@@ -52,11 +144,41 @@
       "text": "Durante el último año, ¿con qué frecuencia ha descubierto que no podía dejar de beber una vez que había empezado?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "0",
+            "display": "Never"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "1",
+            "display": "Less than monthly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "2",
+            "display": "Monthly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "3",
+            "display": "Weekly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "4",
+            "display": "Daily or almost daily"
+          }
+        }
       ]
     },
     {
@@ -64,11 +186,41 @@
       "text": "Durante el último año, ¿con qué frecuencia no cumplió con lo que normalmente se esperaba de usted debido al consumo de alcohol?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "0",
+            "display": "Never"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "1",
+            "display": "Less than monthly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "2",
+            "display": "Monthly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "3",
+            "display": "Weekly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "4",
+            "display": "Daily or almost daily"
+          }
+        }
       ]
     },
     {
@@ -76,11 +228,41 @@
       "text": "Durante el último año, ¿con qué frecuencia necesitó una bebida por la mañana para poder continuar después de una gran ingesta de alcohol?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "0",
+            "display": "Never"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "1",
+            "display": "Less than monthly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "2",
+            "display": "Monthly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "3",
+            "display": "Weekly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "4",
+            "display": "Daily or almost daily"
+          }
+        }
       ]
     },
     {
@@ -88,11 +270,41 @@
       "text": "Durante el último año, ¿con qué frecuencia ha sentido culpa o remordimiento después de beber?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "0",
+            "display": "Never"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "1",
+            "display": "Less than monthly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "2",
+            "display": "Monthly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "3",
+            "display": "Weekly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "4",
+            "display": "Daily or almost daily"
+          }
+        }
       ]
     },
     {
@@ -100,11 +312,41 @@
       "text": "Durante el último año, ¿con qué frecuencia no pudo recordar lo que sucedió la noche anterior por haber bebido?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "Never" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "1", "display": "Less than monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Monthly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "3", "display": "Weekly" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Daily or almost daily" }}
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "0",
+            "display": "Never"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "1",
+            "display": "Less than monthly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "2",
+            "display": "Monthly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "3",
+            "display": "Weekly"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "4",
+            "display": "Daily or almost daily"
+          }
+        }
       ]
     },
     {
@@ -112,9 +354,27 @@
       "text": "¿Usted o alguien más ha resultado herido como resultado de su consumo de alcohol?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "No" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Sí, pero no en el último año" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Sí, durante el último año" }}
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "0",
+            "display": "No"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "2",
+            "display": "Sí, pero no en el último año"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "4",
+            "display": "Sí, durante el último año"
+          }
+        }
       ]
     },
     {
@@ -122,10 +382,42 @@
       "text": "¿Algún familiar, amigo, médico u otro profesional de la salud ha mostrado preocupación por su consumo de alcohol o le ha sugerido reducirlo?",
       "type": "choice",
       "answerOption": [
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "0", "display": "No" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "2", "display": "Sí, pero no en el último año" }},
-        { "valueCoding": { "system": "http://tu-org.com/audit", "code": "4", "display": "Sí, durante el último año" }}
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "0",
+            "display": "No"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "2",
+            "display": "Sí, pero no en el último año"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://tu-org.com/audit",
+            "code": "4",
+            "display": "Sí, durante el último año"
+          }
+        }
       ]
     }
-  ]
+  ],
+  "meta": {
+    "versionId": "9b115480-1541-44b9-ba6b-a804f019121f",
+    "lastUpdated": "2026-06-18T18:45:13.452Z",
+    "author": {
+      "reference": "Practitioner/5d3375be-f4d4-4f50-bfe4-c3fc238a10ab",
+      "display": "Juan Ichazo"
+    },
+    "project": "52fc66e7-799c-4a80-bc2a-e051ee20d2e7",
+    "compartment": [
+      {
+        "reference": "Project/52fc66e7-799c-4a80-bc2a-e051ee20d2e7"
+      }
+    ]
+  }
 }
