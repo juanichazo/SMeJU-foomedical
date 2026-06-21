@@ -49,7 +49,7 @@ export function QuestionnairePage(): JSX.Element {
     try {
       const profile = medplum.getProfile();
 
-      if (profile.resourceType === 'Patient') {
+      if (profile?.resourceType === 'Patient') {
         response.subject = {
           reference: `Patient/${profile.id}`,
           display: profile.name?.[0]?.text,
