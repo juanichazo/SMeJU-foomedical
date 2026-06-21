@@ -45,29 +45,47 @@ export function QuestionnairePage(): JSX.Element {
   const questionnaire = findQuestionnaire(questionnaireId);
 
   const handleOnSubmit = useCallback(
-    (response: QuestionnaireResponse) => {
-      medplum
-        .createResource(response)
-        .then(() => {
-          showNotification({
-            icon: <IconCircleCheck />,
-            title: 'Success',
-            message: 'Answers recorded',
-          });
-          navigate('/health-record/questionnaire-responses/')?.catch(console.error);
-          window.scrollTo(0, 0);
-        })
-        .catch((err) => {
-          showNotification({
-            color: 'red',
-            icon: <IconCircleOff />,
-            title: 'Error',
-            message: normalizeErrorString(err),
-          });
-        });
-    },
-    [medplum, navigate]
-  );
+  async (response: QuestionnaireResponse) => {
+    try {
+      const profile = medplum.getProfile();
+
+      if (profile.resourceType === 'Patient') {
+        response.subject = {
+          reference: `Patient/${profile.id}`,
+          display: profile.name?.[0]?.text,
+        };
+
+        response.author = {
+          reference: `Patient/${profile.id}`,
+        };
+
+        response.source = {
+          reference: `Patient/${profile.id}`,
+        };
+      }
+
+      await medplum.createResource(response);
+
+      showNotification({
+        icon: <IconCircleCheck />,
+        title: 'Success',
+        message: 'Answers recorded',
+      });
+
+      navigate('/health-record/questionnaire-responses/')?.catch(console.error);
+      window.scrollTo(0, 0);
+
+    } catch (err) {
+      showNotification({
+        color: 'red',
+        icon: <IconCircleOff />,
+        title: 'Error',
+        message: normalizeErrorString(err),
+      });
+    }
+  },
+  [medplum, navigate]
+);
 
   if (!questionnaireId) {
     return (
