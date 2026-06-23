@@ -148,35 +148,35 @@
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "0",
-            "display": "Never"
+            "display": "Nunca"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "1",
-            "display": "Less than monthly"
+            "display": "Menos de una vez al mes"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "2",
-            "display": "Monthly"
+            "display": "Mensualmente"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "3",
-            "display": "Weekly"
+            "display": "Semanalmente"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "4",
-            "display": "Daily or almost daily"
+            "display": "Diario o casi a diario"
           }
         }
       ]
@@ -190,35 +190,35 @@
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "0",
-            "display": "Never"
+            "display": "Nunca"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "1",
-            "display": "Less than monthly"
+            "display": "Menos de una vez al mes"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "2",
-            "display": "Monthly"
+            "display": "Mensualmente"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "3",
-            "display": "Weekly"
+            "display": "Semanalmente"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "4",
-            "display": "Daily or almost daily"
+            "display": "Diario o casi a diario"
           }
         }
       ]
@@ -232,35 +232,35 @@
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "0",
-            "display": "Never"
+            "display": "Nunca"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "1",
-            "display": "Less than monthly"
+            "display": "Menos de una vez al mes"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "2",
-            "display": "Monthly"
+            "display": "Mensualmente"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "3",
-            "display": "Weekly"
+            "display": "Semanalmente"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "4",
-            "display": "Daily or almost daily"
+            "display": "Diario o casi a diario"
           }
         }
       ]
@@ -274,35 +274,35 @@
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "0",
-            "display": "Never"
+            "display": "Nunca"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "1",
-            "display": "Less than monthly"
+            "display": "Menos de una vez al mes"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "2",
-            "display": "Monthly"
+            "display": "Mensualmente"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "3",
-            "display": "Weekly"
+            "display": "Semanalmente"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "4",
-            "display": "Daily or almost daily"
+            "display": "Diario o casi a diario"
           }
         }
       ]
@@ -316,35 +316,35 @@
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "0",
-            "display": "Never"
+            "display": "Nunca"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "1",
-            "display": "Less than monthly"
+            "display": "Menos de una vez al mes"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "2",
-            "display": "Monthly"
+            "display": "Mensualmente"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "3",
-            "display": "Weekly"
+            "display": "Semanalmente"
           }
         },
         {
           "valueCoding": {
             "system": "http://tu-org.com/audit",
             "code": "4",
-            "display": "Daily or almost daily"
+            "display": "Diario o casi a diario"
           }
         }
       ]

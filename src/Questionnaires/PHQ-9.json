@@ -11,8 +11,8 @@
         "reference": "Project/52fc66e7-799c-4a80-bc2a-e051ee20d2e7"
       }
     ],
-    "versionId": "36b2c622-b8cd-483c-b8d6-6c4710934b88",
-    "lastUpdated": "2026-06-19T19:54:26.640Z",
+    "versionId": "5e6b08ba-2a89-4fe9-94d0-b4952b552ca5",
+    "lastUpdated": "2026-06-23T02:24:23.490Z",
     "author": {
       "reference": "Practitioner/5d3375be-f4d4-4f50-bfe4-c3fc238a10ab",
       "display": "Juan Ichazo"
@@ -79,6 +79,12 @@
   ],
   "item": [
     {
+      "linkId": "intro",
+      "type": "display",
+      "text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado los siguientes problemas?",
+      "id": "id-124"
+    },
+    {
       "linkId": "/44250-9",
       "code": [
         {
@@ -106,7 +112,8 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absoluto"
-          }
+          },
+          "id": "id-171"
         },
         {
           "extension": [
@@ -123,7 +130,8 @@
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-172"
         },
         {
           "extension": [
@@ -140,7 +148,8 @@
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-173"
         },
         {
           "extension": [
@@ -157,9 +166,11 @@
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-174"
         }
-      ]
+      ],
+      "id": "id-170"
     },
     {
       "linkId": "/44255-8",
@@ -170,7 +181,7 @@
           "display": "Feeling down, depressed, or hopeless in last 2 weeks"
         }
       ],
-      "text": "Feeling down, depressed, or hopeless?",
+      "text": "Sentirse triste, deprimido o desesperanzado",
       "type": "choice",
       "required": true,
       "answerOption": [
@@ -189,7 +200,8 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absoluto"
-          }
+          },
+          "id": "id-176"
         },
         {
           "extension": [
@@ -206,7 +218,8 @@
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-177"
         },
         {
           "extension": [
@@ -223,7 +236,8 @@
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-178"
         },
         {
           "extension": [
@@ -240,9 +254,11 @@
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-179"
         }
-      ]
+      ],
+      "id": "id-175"
     },
     {
       "linkId": "/44259-0",
@@ -253,7 +269,7 @@
           "display": "Trouble falling or staying asleep, or sleeping too much in last 2 weeks [Reported.PHQ]"
         }
       ],
-      "text": "Trouble falling or staying asleep, or sleeping too much in last 2 weeks [Reported.PHQ]",
+      "text": "Problemas para conciliar el sueño, para mantenerse dormido o para dormir demasiado.",
       "type": "choice",
       "required": true,
       "answerOption": [
@@ -272,7 +288,8 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absoluto"
-          }
+          },
+          "id": "id-181"
         },
         {
           "extension": [
@@ -289,7 +306,8 @@
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-182"
         },
         {
           "extension": [
@@ -306,7 +324,8 @@
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-183"
         },
         {
           "extension": [
@@ -323,9 +342,11 @@
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-184"
         }
-      ]
+      ],
+      "id": "id-180"
     },
     {
       "linkId": "/44254-1",
@@ -336,7 +357,7 @@
           "display": "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]"
         }
       ],
-      "text": "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]",
+      "text": "Sentirse cansado o tener poca energía",
       "type": "choice",
       "required": true,
       "answerOption": [
@@ -355,7 +376,8 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absoluto"
-          }
+          },
+          "id": "id-186"
         },
         {
           "extension": [
@@ -372,7 +394,8 @@
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-187"
         },
         {
           "extension": [
@@ -389,7 +412,8 @@
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-188"
         },
         {
           "extension": [
@@ -406,9 +430,11 @@
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-189"
         }
-      ]
+      ],
+      "id": "id-185"
     },
     {
       "linkId": "/44251-7",
@@ -419,7 +445,7 @@
           "display": "Poor appetite or overeating in last 2 weeks"
         }
       ],
-      "text": "Poor appetite or overeating in last 2 weeks",
+      "text": "Falta de apetito o comer en exceso",
       "type": "choice",
       "required": true,
       "answerOption": [
@@ -438,7 +464,8 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absouto"
-          }
+          },
+          "id": "id-191"
         },
         {
           "extension": [
@@ -455,7 +482,8 @@
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-192"
         },
         {
           "extension": [
@@ -472,7 +500,8 @@
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-193"
         },
         {
           "extension": [
@@ -489,9 +518,11 @@
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-194"
         }
-      ]
+      ],
+      "id": "id-190"
     },
     {
       "linkId": "/44258-2",
@@ -502,7 +533,7 @@
           "display": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks [Reported.PHQ]"
         }
       ],
-      "text": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks [Reported.PHQ]",
+      "text": "Sentirse mal consigo mismo, o que uno es un fracaso o que ha decepcionado a uno mismo o a su familia.",
       "type": "choice",
       "required": true,
       "answerOption": [
@@ -521,7 +552,8 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absouto"
-          }
+          },
+          "id": "id-196"
         },
         {
           "extension": [
@@ -538,7 +570,8 @@
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-197"
         },
         {
           "extension": [
@@ -555,7 +588,8 @@
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-198"
         },
         {
           "extension": [
@@ -572,9 +606,11 @@
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-199"
         }
-      ]
+      ],
+      "id": "id-195"
     },
     {
       "linkId": "/44252-5",
@@ -585,7 +621,7 @@
           "display": "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks [Reported.PHQ]"
         }
       ],
-      "text": "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks [Reported.PHQ]",
+      "text": "Dificultad para concentrarse en cosas como leer el periódico o ver la televisión.",
       "type": "choice",
       "required": true,
       "answerOption": [
@@ -604,7 +640,8 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absouto"
-          }
+          },
+          "id": "id-201"
         },
         {
           "extension": [
@@ -621,7 +658,8 @@
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-202"
         },
         {
           "extension": [
@@ -638,7 +676,8 @@
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-203"
         },
         {
           "extension": [
@@ -655,9 +694,11 @@
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-204"
         }
-      ]
+      ],
+      "id": "id-200"
     },
     {
       "linkId": "/44253-3",
@@ -668,7 +709,7 @@
           "display": "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks [Reported.PHQ]"
         }
       ],
-      "text": "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks [Reported.PHQ]",
+      "text": "Moverse o hablar tan despacio que otras personas lo hayan notado. O, lo contrario: estar tan inquieto o nervioso que te hayas movido mucho más de lo habitual.",
       "type": "choice",
       "required": true,
       "answerOption": [
@@ -687,7 +728,8 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absouto"
-          }
+          },
+          "id": "id-206"
         },
         {
           "extension": [
@@ -704,7 +746,8 @@
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-207"
         },
         {
           "extension": [
@@ -721,7 +764,8 @@
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-208"
         },
         {
           "extension": [
@@ -738,9 +782,11 @@
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-209"
         }
-      ]
+      ],
+      "id": "id-205"
     },
     {
       "linkId": "/44260-8",
@@ -751,7 +797,7 @@
           "display": "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks [Reported.PHQ]"
         }
       ],
-      "text": "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks [Reported.PHQ]",
+      "text": "Pensamientos de que estarías mejor muerto o de hacerte daño de alguna manera.",
       "type": "choice",
       "required": false,
       "answerOption": [
@@ -770,7 +816,8 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absouto"
-          }
+          },
+          "id": "id-211"
         },
         {
           "extension": [
@@ -787,7 +834,8 @@
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-212"
         },
         {
           "extension": [
@@ -804,7 +852,8 @@
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-213"
         },
         {
           "extension": [
@@ -821,9 +870,11 @@
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-214"
         }
-      ]
+      ],
+      "id": "id-210"
     }
   ]
 }

@@ -24,15 +24,15 @@ export function LandingPage(): JSX.Element {
           <div className={classes.inner}>
             <Stack className={classes.content} gap="xl">
               <Stack gap="md">
-                <Text className={classes.eyebrow}>Student wellbeing platform</Text>
-                <Title className={classes.title}>A simple place to complete your health questionnaire.</Title>
+                {/*<Text className={classes.eyebrow}></Text>*/}
+                <Title className={classes.title}>Estudio sobre la salud mental en estudiantes universitarios</Title>
                 <Text className={classes.description}>
-                  This project helps students securely submit a short intake questionnaire so the care team can better
-                  understand their needs, review responses, and guide the next steps in support.
+                  Inicie sesión y complete los siguientes cuestionarios para recopilar información acerca de la salud mental de los estudiantes.                  
+                  Deberá completar 8 cuestionarios cortos.
                 </Text>
               </Stack>
 
-              <Stack gap="sm">
+              {/*<Stack gap="sm">
                 <Text className={classes.sectionTitle}>How to continue</Text>
                 <Stack gap="xs">
                   {steps.map((step, index) => (
@@ -41,7 +41,7 @@ export function LandingPage(): JSX.Element {
                     </Text>
                   ))}
                 </Stack>
-              </Stack>
+              </Stack>*/}
 
               <Group className={classes.actions}>
                 <Button
@@ -49,7 +49,7 @@ export function LandingPage(): JSX.Element {
                   size="md"
                   onClick={() => navigate('/signin')?.catch(console.error)}
                 >
-                  Log in
+                  Iniciar sesión
                 </Button>
                 <Button
                   leftSection={<IconClipboardText size={18} />}
@@ -57,7 +57,7 @@ export function LandingPage(): JSX.Element {
                   size="md"
                   onClick={() => navigate('/register')?.catch(console.error)}
                 >
-                  Create account
+                  Crear cuenta
                 </Button>
               </Group>
             </Stack>

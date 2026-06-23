@@ -3,7 +3,7 @@
   "id": "2d887039-8cdf-4d6e-ae17-f2af68a8d201",
   "url": "https://example.org/fhir/Questionnaire/ctq-sf",
   "name": "CTQSF",
-  "title": "Childhood Trauma Questionnaire - Short Form (CTQ-SF)",
+  "title": "Cuestionario de Trauma Infantil",
   "status": "active",
   "subjectType": [
     "Patient"
@@ -26,31 +26,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-141"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-142"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-143"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-144"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-145"
             }
           ]
         },
@@ -65,31 +70,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-146"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-147"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-148"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-149"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-150"
             }
           ]
         },
@@ -104,31 +114,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-151"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-152"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-153"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-154"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-155"
             }
           ]
         },
@@ -143,31 +158,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-156"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-157"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-158"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-159"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-160"
             }
           ]
         },
@@ -182,31 +202,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-161"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-162"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-163"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-164"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-165"
             }
           ]
         },
@@ -221,31 +246,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-166"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-167"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-168"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-169"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-170"
             }
           ]
         },
@@ -260,31 +290,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-171"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-172"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-173"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-174"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-175"
             }
           ]
         },
@@ -299,31 +334,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-176"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-177"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-178"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-179"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-180"
             }
           ]
         },
@@ -338,31 +378,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-181"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-182"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-183"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-184"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-185"
             }
           ]
         },
@@ -377,31 +422,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-186"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-187"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-188"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-189"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-190"
             }
           ]
         },
@@ -416,31 +466,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-191"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-192"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-193"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-194"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-195"
             }
           ]
         },
@@ -455,31 +510,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-196"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-197"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-198"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-199"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-200"
             }
           ]
         },
@@ -494,31 +554,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-201"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-202"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-203"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-204"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-205"
             }
           ]
         },
@@ -533,31 +598,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-206"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-207"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-208"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-209"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-210"
             }
           ]
         },
@@ -572,31 +642,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-211"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-212"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-213"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-214"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-215"
             }
           ]
         },
@@ -611,31 +686,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-216"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-217"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-218"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-219"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-220"
             }
           ]
         },
@@ -650,31 +730,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-221"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-222"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-223"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-224"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-225"
             }
           ]
         },
@@ -689,31 +774,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-226"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-227"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-228"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-229"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-230"
             }
           ]
         },
@@ -728,31 +818,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-231"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-232"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-233"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-234"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-235"
             }
           ]
         },
@@ -767,31 +862,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-236"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-237"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-238"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-239"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-240"
             }
           ]
         },
@@ -806,31 +906,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-241"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-242"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-243"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-244"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-245"
             }
           ]
         },
@@ -845,31 +950,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-246"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-247"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-248"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-249"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-250"
             }
           ]
         },
@@ -884,31 +994,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-251"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-252"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-253"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-254"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-255"
             }
           ]
         },
@@ -923,31 +1038,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-256"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-257"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-258"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-259"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-260"
             }
           ]
         },
@@ -962,31 +1082,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-261"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-262"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-263"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-264"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-265"
             }
           ]
         },
@@ -1001,31 +1126,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-266"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-267"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-268"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-269"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-270"
             }
           ]
         },
@@ -1040,31 +1170,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-271"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-272"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-273"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-274"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-275"
             }
           ]
         },
@@ -1079,31 +1214,36 @@
               "valueCoding": {
                 "code": "1",
                 "display": "Nunca"
-              }
+              },
+              "id": "id-276"
             },
             {
               "valueCoding": {
                 "code": "2",
                 "display": "Raramente"
-              }
+              },
+              "id": "id-277"
             },
             {
               "valueCoding": {
                 "code": "3",
                 "display": "A veces"
-              }
+              },
+              "id": "id-278"
             },
             {
               "valueCoding": {
                 "code": "4",
                 "display": "A menudo"
-              }
+              },
+              "id": "id-279"
             },
             {
               "valueCoding": {
                 "code": "5",
                 "display": "Casi siempre"
-              }
+              },
+              "id": "id-280"
             }
           ]
         }
@@ -1111,17 +1251,17 @@
     }
   ],
   "meta": {
-    "versionId": "5cd872b0-31d8-4510-af9f-88c4d41c88c5",
-    "lastUpdated": "2026-06-18T17:21:08.463Z",
-    "author": {
-      "reference": "Practitioner/5d3375be-f4d4-4f50-bfe4-c3fc238a10ab",
-      "display": "Juan Ichazo"
-    },
     "project": "52fc66e7-799c-4a80-bc2a-e051ee20d2e7",
     "compartment": [
       {
         "reference": "Project/52fc66e7-799c-4a80-bc2a-e051ee20d2e7"
       }
-    ]
+    ],
+    "versionId": "6c50afd1-260e-4d90-85c8-b0422ce1a308",
+    "lastUpdated": "2026-06-23T03:49:37.912Z",
+    "author": {
+      "reference": "Practitioner/5d3375be-f4d4-4f50-bfe4-c3fc238a10ab",
+      "display": "Juan Ichazo"
+    }
   }
 }

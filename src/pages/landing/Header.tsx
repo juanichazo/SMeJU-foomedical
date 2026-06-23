@@ -33,9 +33,9 @@ export function Header(): JSX.Element {
 
             <Group className={classes.hiddenMobile}>
               <Button variant="default" onClick={() => navigate('/signin')?.catch(console.error)}>
-                Log in
+                Iniciar sesión
               </Button>
-              <Button onClick={() => navigate('/register')?.catch(console.error)}>Sign up</Button>
+              <Button onClick={() => navigate('/register')?.catch(console.error)}>Crear cuenta</Button>
             </Group>
 
             <Burger opened={drawerOpened} onClick={toggleDrawer} className={classes.hiddenDesktop} />
@@ -57,9 +57,9 @@ export function Header(): JSX.Element {
 
           <Stack pb="xl" px="md">
             <Button variant="default" onClick={() => navigate('/signin')?.catch(console.error)}>
-              Log in
+              Iniciar sesión
             </Button>
-            <Button onClick={() => navigate('/register')?.catch(console.error)}>Sign up</Button>
+            <Button onClick={() => navigate('/register')?.catch(console.error)}>Crear cuenta</Button>
           </Stack>
         </ScrollArea>
       </Drawer>

@@ -92,9 +92,9 @@ export function QuestionnairePage(): JSX.Element {
       <Document width={800}>
         <Container py="xl">
           <Box>
-            <Title order={2}>Complete a Questionnaire</Title>
+            <Title order={2}>Lista de cuestionarios</Title>
             <Text color="dimmed">
-              Choose one of the available questionnaires below, then complete it to record your answers.
+              Compmlete los siguientes cuestionarios
             </Text>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginTop: 12 }}>
               {questionnaireList.map(({ slug, questionnaire }) => (
@@ -109,7 +109,7 @@ export function QuestionnairePage(): JSX.Element {
                       ) : null}
                     </div>
                     <Button onClick={() => navigate(`/Questionnaire/${slug}`)?.catch(console.error)}>
-                      Start
+                      Completar
                     </Button>
                   </div>
                 </Card>

@@ -8,8 +8,8 @@
         "reference": "Project/52fc66e7-799c-4a80-bc2a-e051ee20d2e7"
       }
     ],
-    "versionId": "6f02982a-4311-42fe-825a-9a948aab55e6",
-    "lastUpdated": "2026-06-20T15:36:21.281Z",
+    "versionId": "6b1de88b-7ac7-4121-95f1-39d15b0af7c0",
+    "lastUpdated": "2026-06-23T02:20:23.513Z",
     "author": {
       "reference": "Practitioner/5d3375be-f4d4-4f50-bfe4-c3fc238a10ab",
       "display": "Juan Ichazo"
@@ -93,6 +93,12 @@
   ],
   "item": [
     {
+      "linkId": "intro",
+      "type": "display",
+      "text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado los siguientes problemas?",
+      "id": "id-124"
+    },
+    {
       "linkId": "57541",
       "code": [
         {
@@ -110,30 +116,35 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absoluto"
-          }
+          },
+          "id": "id-126"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-127"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-128"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-129"
         }
-      ]
+      ],
+      "id": "id-125"
     },
     {
       "linkId": "57542",
@@ -144,7 +155,7 @@
         }
       ],
       "prefix": "GAD7_02",
-      "text": "Durante las últimas 2 semanas, ¿no ha podido dejar de preocuparse o controlar sus preocupaciones?",
+      "text": "No poder dejar de preocuparse ni controlar la preocupación.",
       "type": "choice",
       "repeats": false,
       "answerOption": [
@@ -153,30 +164,35 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absoluto"
-          }
+          },
+          "id": "id-131"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-132"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA18938-3",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-133"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-134"
         }
-      ]
+      ],
+      "id": "id-130"
     },
     {
       "linkId": "57543",
@@ -196,30 +212,35 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absoluto"
-          }
+          },
+          "id": "id-136"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-137"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-138"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-139"
         }
-      ]
+      ],
+      "id": "id-135"
     },
     {
       "linkId": "57544",
@@ -239,30 +260,35 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absoluto"
-          }
+          },
+          "id": "id-141"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-142"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-143"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-144"
         }
-      ]
+      ],
+      "id": "id-140"
     },
     {
       "linkId": "57545",
@@ -273,7 +299,7 @@
         }
       ],
       "prefix": "GAD7_05",
-      "text": "Being so restless that it is hard to sit still",
+      "text": "Estar tan inquieto que cuesta quedarse quieto",
       "type": "choice",
       "enableBehavior": "any",
       "repeats": false,
@@ -283,30 +309,35 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absoluto"
-          }
+          },
+          "id": "id-146"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-147"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-148"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-149"
         }
-      ]
+      ],
+      "id": "id-145"
     },
     {
       "linkId": "57546",
@@ -317,7 +348,7 @@
         }
       ],
       "prefix": "GAD7_06",
-      "text": "Irritarse o molestarse con facilidad",
+      "text": "Irritarse o enojarse con facilidad",
       "type": "choice",
       "repeats": false,
       "answerOption": [
@@ -326,30 +357,35 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absoluto"
-          }
+          },
+          "id": "id-151"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-152"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-153"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
+          },
+          "id": "id-154"
         }
-      ]
+      ],
+      "id": "id-150"
     },
     {
       "linkId": "57547",
@@ -369,73 +405,35 @@
             "system": "http://loinc.org",
             "code": "LA6568-5",
             "display": "En absoluto"
-          }
+          },
+          "id": "id-156"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6569-3",
             "display": "Varios días"
-          }
+          },
+          "id": "id-157"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6570-1",
             "display": "Más de la mitad de los días"
-          }
+          },
+          "id": "id-158"
         },
         {
           "valueCoding": {
             "system": "http://loinc.org",
             "code": "LA6571-9",
             "display": "Casi todos los días"
-          }
-        }
-      ]
-    },
-    {
-      "linkId": "/69722-7",
-      "code": [
-        {
-          "system": "http://loinc.org",
-          "code": "69722-7",
-          "display": "How difficult have these made it for you to do your work, take care of things at home, or get along with other people [Reported.PHQ]"
+          },
+          "id": "id-159"
         }
       ],
-      "text": "How difficult have these made it for you to do your work, take care of things at home, or get along with other people [Reported.PHQ]",
-      "type": "choice",
-      "required": false,
-      "answerOption": [
-        {
-          "valueCoding": {
-            "system": "http://loinc.org",
-            "code": "LA6572-7",
-            "display": "Para nada difícil"
-          }
-        },
-        {
-          "valueCoding": {
-            "system": "http://loinc.org",
-            "code": "LA6573-5",
-            "display": "Un poco difícil"
-          }
-        },
-        {
-          "valueCoding": {
-            "system": "http://loinc.org",
-            "code": "LA6575-0",
-            "display": "Muy difícil"
-          }
-        },
-        {
-          "valueCoding": {
-            "system": "http://loinc.org",
-            "code": "LA6574-3",
-            "display": "Extremadamente difícil"
-          }
-        }
-      ]
+      "id": "id-155"
     }
   ]
 }

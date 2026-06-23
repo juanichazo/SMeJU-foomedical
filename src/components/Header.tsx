@@ -48,7 +48,7 @@ export function Header(): JSX.Element {
               </UnstyledButton>
             </Menu.Target>
             <Menu.Dropdown>
-              <Menu.Item
+              {/*<Menu.Item
                 leftSection={<IconUserCircle size={16} color={theme.colors.red[6]} stroke={1.5} />}
                 onClick={() => navigate('/account/profile')?.catch(console.error)}
               >
@@ -59,12 +59,12 @@ export function Header(): JSX.Element {
                 onClick={() => navigate('/account/profile')?.catch(console.error)}
               >
                 Settings
-              </Menu.Item>
+              </Menu.Item>*/}
               <Menu.Item
                 leftSection={<IconLogout size={16} color={theme.colors.gray[6]} stroke={1.5} />}
                 onClick={() => navigate('/signout')?.catch(console.error)}
               >
-                Sign out
+                Cerrar sesión
               </Menu.Item>
             </Menu.Dropdown>
           </Menu>
