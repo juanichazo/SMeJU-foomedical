@@ -13,7 +13,7 @@ import {
 export function SignInPage(): JSX.Element {
   const navigate = useNavigate();
   return (
-    <SimpleGrid cols={2}>
+    <SimpleGrid cols={1}>
       <Box pt={100} pb={200}>
         <SignInForm
           projectId={MEDPLUM_PROJECT_ID}
@@ -21,10 +21,9 @@ export function SignInPage(): JSX.Element {
           clientId={MEDPLUM_CLIENT_ID}
           onSuccess={() => navigate('/')?.catch(console.error)}
         >
-          <h2>Sign in to Foo Medical</h2>
+          <h2>Iniciar Sesión</h2>
         </SignInForm>
       </Box>
-      <BackgroundImage src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1567&amp;q=80" />
     </SimpleGrid>
   );
 }
